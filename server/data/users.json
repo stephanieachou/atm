@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "0000",
+      "currentBalance": 0,
+      "dailyWithdrawalTotal": 0,
+      "dailyWithdrawalLimit": 1000,
+      "lastWithdrawalDate": "2025-04-30"
+    },
+    {
+      "id": "1111",
+      "currentBalance": 10000,
+      "dailyWithdrawalTotal": 0,
+      "dailyWithdrawalLimit": 5000,
+      "lastWithdrawalDate": "2025-04-30"
+    },
+    {
+      "id": "2222",
+      "currentBalance": 20000,
+      "dailyWithdrawalTotal": 0,
+      "dailyWithdrawalLimit": 2000,
+      "lastWithdrawalDate": "2025-04-30"
+    },
+    {
+      "id": "3333",
+      "currentBalance": 30000,
+      "dailyWithdrawalTotal": 0,
+      "dailyWithdrawalLimit": 2000,
+      "lastWithdrawalDate": "2025-04-30"
+    },
+    {
+      "id": "4444",
+      "currentBalance": 40000,
+      "dailyWithdrawalTotal": 0,
+      "dailyWithdrawalLimit": 2000,
+      "lastWithdrawalDate": "2025-04-30"
+    },
+    {
+      "id": "5555",
+      "currentBalance": 50000,
+      "dailyWithdrawalTotal": 0,
+      "dailyWithdrawalLimit": 2000,
+      "lastWithdrawalDate": "2025-04-30"
+    }
+  ]
+}
