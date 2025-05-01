@@ -10,7 +10,7 @@
     {
       "id": "1111",
       "currentBalance": 10000,
-      "dailyWithdrawalTotal": 0,
+      "dailyWithdrawalTotal": 5000,
       "dailyWithdrawalLimit": 5000,
       "lastWithdrawalDate": "2025-04-30"
     },

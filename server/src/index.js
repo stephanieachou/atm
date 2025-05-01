@@ -8,10 +8,19 @@ app.use(express.json());
 
 const dataPath = path.join("server", "data", "users.json");
 
-let userData = [];
+let userData = {};
 try {
   const fileData = fs.readFileSync(dataPath, "utf-8");
-  userData = JSON.parse(fileData);
+  const { users } = JSON.parse(fileData);
+  const today = new Date().toLocaleDateString("en-CA");
+  userData = {
+    users: users.map((user) => ({
+      ...user,
+      ...(new Date(today) > new Date(user.lastWithdrawalDate) && {
+        dailyWithdrawalTotal: 0,
+      }),
+    })),
+  };
 } catch (err) {
   console.error("Error loading users list", err);
 }
