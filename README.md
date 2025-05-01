@@ -6,17 +6,35 @@ This is a simple ATM app built with React and Node.js. Users can log in with the
 
 ## Get Started
 
-1. Install dependencies
+1. Clone the repo
+
+   ```bash
+   git clone git@github.com:stephanieachou/atm.git
+   ```
+
+   ```bash
+   cd atm
+   ```
+
+2. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start server
+3. Start the app
+
    ```bash
    npm start
    ```
-   Note: This runs the frontend and backend concurrently.
+
+   - Note: This runs the frontend and backend concurrently.
+
+4. In the browser, navigate to:
+   ```
+   http://localhost:5173/
+   ```
+   - Note: Mock user data can be found in `server/data/users.json` (ie, use an existing `id` to successfully log in).
 
 ---
 
