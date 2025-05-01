@@ -87,7 +87,7 @@ function PinPad({
   const isClearDisabled = authenticated
     ? changeAmount === 0
     : pinEntry.length === 0;
-  const isCancelDisabled = authenticated ? false : pinEntry.length === 0;
+  const isCancelDisabled = authenticated ? true : pinEntry.length === 0;
 
   return (
     <div id="pin-pad-container">
